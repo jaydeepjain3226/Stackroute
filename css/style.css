@@ -1,0 +1,197 @@
+/*importing font*/
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Crimson+Text|Playfair+Display');
+
+/*font styling for all paragraphs and lists of section5*/
+p, section#section5 .container_12 .grid_3 ul li{
+	text-align: justify;
+	font-family: 'Playfair Display', serif;
+}
+
+/*font styling for all heading of type h2 and h1*/
+h2,h1{
+	font-family: 'Bree Serif', serif;
+}
+
+/**a:link and a:hover are used to allow for no text decoration to hyperlinks and allow for an underline when 
+mouse hovers over it**/
+a:link{
+	text-decoration: none; 
+}
+a:hover{
+	text-decoration: underline;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+/* visited link */
+a:visited {
+    color: blue;
+}
+/* mouse over link */
+a:hover {
+    color:green;
+}
+/* selected link */
+a:active {
+    color:red;
+}
+
+/*Styling for header*/
+header{
+	background-color: #fbdc0b;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 10px
+}
+h1.grid_2{
+	font-family: 'Tangerine', serif;
+	font-size: 30px;
+	text-shadow: 4px 4px 4px #aaa;
+	padding-top: 2px;
+	align-content: center;
+}
+img.grid_2{
+	margin-top:10px;
+	margin-left:0;
+	width:30px;
+	height: 30px;
+}
+
+nav.grid_8{
+	float: right;
+}
+nav.grid_8 ul li
+{
+	display : inline;
+	font-family:sans-serif;
+	font-size: 20px;
+	padding-bottom: 2px;
+	margin-right: 0;
+}
+
+
+/*Styling for section1 to write the text over the image*/
+#section1 img{
+	border: 1px black;
+	height: 500px;
+	width: 100%;
+	background-color: powderblue;
+
+}
+#section1 h2 { 
+	position: absolute; 
+	top: 100px; 
+	left:33%; 
+	color:white;
+	font-size: 30px;
+	font-family: 'Tangerine', serif;
+}
+
+/*Styling for section2*/
+#section2 .grid_6 img.image2 {
+
+	border: 1px black;
+	height: 300px;
+	width: 100%;
+}
+
+/*Styling for section3*/
+#section3{
+	background-color: #e3e3e3;
+}
+#section3 .grid_4 img.image3 {
+	border: 1px black;
+	height: 250px;
+	width: 100%;
+}
+
+/*Styling for section4 (text formatting, image formatting, background color)*/
+#section4 {
+	background-color: whtie;
+}
+#section4 .grid_6 h4, .grid_6 h2{
+	margin-bottom: 0;
+}
+#section4 .grid_6 h4{
+	font-family: 'Crimson text', serif;
+}
+#section4 .grid_6 .grid_6 img.image4{
+	border: 1px black;
+	height: 60px;
+	width: 15%;
+	background-color: powderblue;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Styling for section5 (background color, list styling)*/
+#section5{
+	height: 207px;
+	background-color: #92DCE0;
+}
+#section5 h2, .grid_3 ul li h2{
+	margin-bottom: 0;
+}
+section#section5 .container_12 .grid_3 ul li{
+	list-style: none;
+}
+section#section5 .container_12 .grid_3 p{
+	text-align: justify;
+}
+
+/*Styling for footer*/
+#foot{
+	height: 100px;
+	background: #5AB9EA;
+}
+/*styling contact part of footer*/
+footer#foot .grid_5 h1, .grid_5 ul li{
+	list-style: none;
+	margin-left:100%;
+	margin-bottom: 0;
+}
+footer#foot .grid_5 ul li h6{
+	margin-bottom: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+/*styling grid_7 (part- follow us on)of footer */
+footer#foot .grid_7 {
+	margin-left: 65%;	
+}
+footer#foot .grid_7 li{
+	display: inline;
+	margin-bottom:0;
+	list-style: none;
+}
+footer#foot .grid_7 li h2{
+	margin-left: 15%;
+	margin-bottom: 0
+}
+footer#foot .grid_7 li a{
+	padding-top: 10px;
+	padding-right:15px;
+	color:black;
+}
+
+/*styling the subscriber form to provide background color and aligning it to the center*/
+.form1{
+	padding-top: 0;
+	width:20%;
+	margin:auto;
+	background-color: #e3e3e3;
+	color:blue;
+}
+.form1 form{
+	padding-left: 40px;
+	padding-bottom: 5px;
+	padding-top:5px;
+}
+
+
+
+
+
+
